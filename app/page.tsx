@@ -63,7 +63,7 @@ const faqs = [
 ];
 
 const faqSchema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) };
-const businessSchema = { '@context': 'https://schema.org', '@type': 'ElectronicsStore', name: 'Solução TI', url: 'https://www.solucaotipb.com.br', telephone: '+55-83-3113-1839', description: 'Assistência técnica premium especializada em reparos eletrônicos avançados.', address: { '@type': 'PostalAddress', addressLocality: 'João Pessoa', addressRegion: 'PB', addressCountry: 'BR' }, areaServed: 'BR', sameAs: ['https://www.instagram.com/solucaotipb'] };
+const businessSchema = { '@context': 'https://schema.org', '@type': 'ElectronicsStore', name: 'Solução TI', url: 'https://www.orcamentosolucaotipb.com.br', telephone: '+55-83-3113-1839', description: 'Assistência técnica premium especializada em reparos eletrônicos avançados.', address: { '@type': 'PostalAddress', addressLocality: 'João Pessoa', addressRegion: 'PB', addressCountry: 'BR' }, areaServed: 'BR', sameAs: ['https://www.instagram.com/solucaotipb'] };
 
 export default function Home() {
   return <main>

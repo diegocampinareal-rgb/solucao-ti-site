@@ -3,7 +3,6 @@ import type { MetadataRoute } from 'next';
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: { userAgent: '*', allow: '/' },
-    sitemap: 'https://www.solucaotipb.com.br/sitemap.xml',
+    sitemap: 'https://www.orcamentosolucaotipb.com.br/sitemap.xml',
   };
 }
-

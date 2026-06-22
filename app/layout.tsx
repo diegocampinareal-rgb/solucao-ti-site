@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'sw
 const manrope = Manrope({ subsets: ['latin'], variable: '--font-manrope', display: 'swap' });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.solucaotipb.com.br'),
+  metadataBase: new URL('https://www.orcamentosolucaotipb.com.br'),
   title: { default: 'Assistência Técnica em João Pessoa | Solução TI', template: '%s | Solução TI' },
   description: 'Especialistas em conserto de notebooks, MacBooks e placas de vídeo em João Pessoa. Diagnóstico avançado, garantia de até 90 dias e atendimento para todo o Brasil.',
   keywords: ['assistência técnica notebook João Pessoa', 'conserto de notebook João Pessoa', 'reparo de MacBook João Pessoa', 'reparo de placa de vídeo', 'conserto RTX 3060', 'conserto RTX 3070', 'reparo eletrônico notebook', 'reparo placa mãe notebook'],
